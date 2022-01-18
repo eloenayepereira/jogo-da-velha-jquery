@@ -1,0 +1,56 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css-jogo-da-velha.css">
+    </head>
+    <body>
+        <h3 class="text-center">JOGO DA VELHA</h3>
+        <hr>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class='circle-j1' src='img-circulo.png'>
+                <h4>Jogador 1: <b id="nome-j1"></b></h4>
+                <h3 id="result-j1">0</h3>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn btn-success btn-sm" id="limpar-jogo">Limpar Jogo</button>
+                <button type="button" class="btn btn-primary btn-sm" id="add-nomes">Trocar nome dos jogadores</button>
+                <button type="button" class="btn btn-secondary btn-sm" id="zerar-placar">Zerar Placar</button>
+            </div>
+            <div class="col-md-4">
+                <img class='x-j2' src='img-x.png'>
+                <h4>Jogador 2: <b id="nome-j2"></b></h4>
+                <h3 id="result-j2">0</h3>
+            </div>
+        </div>
+        <br>
+        <div id="jogo" class="container">
+            <!-- Linha 1 -->
+            <div class="row text-center">
+                <div class="col quadrado" id="q-1"></div>
+                <div class="col quadrado" id="q-2"></div>
+                <div class="col quadrado" id="q-3"></div>
+            </div>
+            <!-- Linha 2 -->
+            <div class="row text-center">
+                <div class="col quadrado" id="q-4"></div>
+                <div class="col quadrado" id="q-5"></div>
+                <div class="col quadrado" id="q-6"></div>
+            </div>
+            <!-- Linha 3 -->
+            <div class="row text-center">
+                <div class="col quadrado" id="q-7"></div>
+                <div class="col quadrado" id="q-8"></div>
+                <div class="col quadrado" id="q-9"></div>
+            </div>
+        </div>
+        <div id="resultado"></div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="js-jogo-da-velha.js"></script>
+    </body>
+</html>

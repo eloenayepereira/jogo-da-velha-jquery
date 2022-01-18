@@ -1,0 +1,37 @@
+.col#q-1, .col#q-2, .col#q-4, .col#q-5 {
+    border-right: 4px solid;
+    border-bottom: 4px solid;
+    height: 130px;
+}
+
+.col#q-3, .col#q-6{
+    border-bottom: 4px solid;
+    height: 130px;
+}
+
+.col#q-7, .col#q-8 {
+    border-right: 4px solid;
+    height: 130px;
+}
+
+.col:hover {
+  background-color:#e6e3e373;
+  cursor:pointer;
+}
+
+img.circle, img.x {
+    margin-top: 16px;
+    width: 37%;
+}
+
+img.circle-j1, img.x-j2 {
+    width: 5%;
+}
+
+div#jogo {
+    width: 65%;
+}
+
+h3.text-center {
+    margin-top: 15px;
+}
